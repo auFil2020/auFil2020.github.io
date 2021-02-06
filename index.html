@@ -2,44 +2,21 @@
 <html>
 
 	<head>
-
+		<link rel="stylesheet" href="index.css" type="text/css" />
 		<meta charset="utf-8">
 		<title>au fil d'histoires</title>
-		<style>
-			body { margin: 0;
-      background-image: url('IMG_0892.JPG');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-			canvas { display: block; }
-      h1 { color: black;
-      font-size: 8rem;}
-      h1 { color: black;
-      font-size: 5rem;}
-		</style>
-
 	</head>
 
 	<body>
-    <h1>AU FIL D'HISTOIRES</h1>
-		<h2>Carte de Milton-Parc</h2>
+
     <div>
+			<img id="carte" src="carteTotale2_1.jpg" alt="Carte de Milton-Parc">
+			<div class="carteElements">
+				<p id="titre">AU FIL D'HISTOIRES</p>
+				<img id="verreJus" src="verreDeJusImage" alt="Verre Jus">
+			</div>
+		</div>
 
-<img src="IMG_0891.JPG" alt="histoire 1" width="3rem" height="auto">
-
-</div>
-
-
-
+	<script type="text/javascript" src="index.js"></script>
 	</body>
-  <script>
-
-  var uwSound = new Audio ('braids.mp3');
-  for (var i = 0; i < 0.3; i = i+0.001){
-  uwSound.loop = true;
-	uwSound.volume = i;
-  uwSound.play();
-  }
-
-  </script>
 </html>
