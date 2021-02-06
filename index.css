@@ -1,6 +1,7 @@
+@media screen and (max-width: 799px) {
 body {
   display: block;
-  min-width: 900px;
+  min-width: 1200px;
   background-color: white;
   margin: 0;
 }
@@ -10,22 +11,13 @@ body {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 900px;
-  width: 100%;
+  min-width: 1200px;
+  width: 150vw;
   height: auto;
-  max-width: 1600px;
   position: absolute;
   object-fit: cover;
-  z-index: 1;
+  z-index: 0;
   overflow: visible;
-}
-
-#titre{
-  display: inline-block;
-  position: absolute;
-  color: black;
-  font-size: 8rem;
-  z-index: 2;
 }
 
 .carteElements{
@@ -40,6 +32,187 @@ body {
 #verreJus{
   display: inline-block;
   position: absolute;
-  width: 1.25vw;
-  z-index: 2;
+  width: calc(1rem + 0.25vw);
+  z-index: 1;
+  top: 240px;
+  left: 1032px;
 }
+}
+
+@media screen and (min-width: 800px) {
+body {
+  display: block;
+  min-width: 1200px;
+  background-color: white;
+  margin: 0;
+}
+
+#carte{
+  display: block;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1200px;
+  width: 150vw;
+  height: auto;
+  max-width: 1900px;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  overflow: visible;
+}
+
+.carteElements{
+  display: block;
+  position: relative;
+  min-width: 1200px;
+  width: 150vw;
+  height: auto;
+  max-width: 1900px;
+}
+
+#verreJus{
+  display: inline-block;
+  position: absolute;
+  width: calc(1rem + 0.25vw);
+  z-index: 1;
+  top: 30.25vw;
+  left: 129.5vw;
+}
+}
+
+@media screen and (min-width: 1266px) {
+body {
+  display: block;
+  min-width: 1200px;
+  background-color: white;
+  margin: 0;
+}
+
+#carte{
+  display: block;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1200px;
+  width: 150vw;
+  height: auto;
+  max-width: 1900px;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  overflow: visible;
+}
+
+.carteElements{
+  display: block;
+  position: relative;
+  min-width: 1200px;
+  width: 100%;
+  height: auto;
+  max-width: 1900px;
+}
+
+#verreJus{
+  display: inline-block;
+  position: absolute;
+  width: calc(1rem + 0.25vw);
+  z-index: 1;
+  top: 384px;
+  left: 1639px;
+}
+}
+
+#verreJus{
+  cursor: pointer;
+  transition: 0.3s;
+}
+#verreJus:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 60%;
+  }
+}
+
+/* #titre{
+  display: inline-block;
+  position: absolute;
+  color: black;
+  font-size: 8rem;
+  z-index: 2;
+} */
