@@ -1,0 +1,45 @@
+body {
+  display: block;
+  min-width: 900px;
+  background-color: white;
+  margin: 0;
+}
+
+#carte{
+  display: block;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 900px;
+  width: 100%;
+  height: auto;
+  max-width: 1600px;
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+  overflow: visible;
+}
+
+#titre{
+  display: inline-block;
+  position: absolute;
+  color: black;
+  font-size: 8rem;
+  z-index: 2;
+}
+
+.carteElements{
+  display: block;
+  position: relative;
+  min-width: 900px;
+  width: 100%;
+  height: auto;
+  max-width: 1600px;
+}
+
+#verreJus{
+  display: inline-block;
+  position: absolute;
+  width: 1.25vw;
+  z-index: 2;
+}
