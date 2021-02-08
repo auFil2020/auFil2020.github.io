@@ -21,8 +21,6 @@ body {
 }
 
 .carteElements{
-  display: block;
-  position: relative;
   min-width: 900px;
   width: 100%;
   height: auto;
@@ -30,12 +28,15 @@ body {
 }
 
 #verreJus{
-  display: inline-block;
-  position: absolute;
   width: calc(1rem + 0.25vw);
-  z-index: 1;
   top: 240px;
   left: 1032px;
+}
+
+#quatreDir{
+  width: calc(1rem + 0.25vw);
+  top: 752px;
+  left: 880px;
 }
 }
 
@@ -63,8 +64,6 @@ body {
 }
 
 .carteElements{
-  display: block;
-  position: relative;
   min-width: 1200px;
   width: 150vw;
   height: auto;
@@ -72,12 +71,21 @@ body {
 }
 
 #verreJus{
-  display: inline-block;
-  position: absolute;
   width: calc(1rem + 0.25vw);
-  z-index: 1;
   top: 30.25vw;
   left: 129.5vw;
+}
+
+#quatreDir{
+  width: calc(1rem + 0.3vw);
+  top: 94vw;
+  left: 110vw;
+}
+
+#animal{
+  width: calc(1rem + 0.3vw);
+  top: 94vw;
+  left: 110vw;
 }
 }
 
@@ -104,30 +112,37 @@ body {
   overflow: visible;
 }
 
+#verreJus{
+  width: calc(1rem + 0.25vw);
+  top: 384px;
+  left: 1639px;
+}
+
+#quatreDir{
+  width: calc(1rem + 0.25vw);
+  top: 1190.6px;
+  left: 1393.3px;
+}
+}
+
 .carteElements{
   display: block;
   position: relative;
   min-width: 1200px;
-  width: 100%;
+  width: 150vw;
   height: auto;
   max-width: 1900px;
 }
 
-#verreJus{
+#verreJus, #quatreDir, #animal, #bouteille{
   display: inline-block;
   position: absolute;
-  width: calc(1rem + 0.25vw);
   z-index: 1;
-  top: 384px;
-  left: 1639px;
-}
+  cursor: pointer;
 }
 
-#verreJus{
-  cursor: pointer;
+#verreJus:hover, #quatreDir:hover, #animal:hover, #bouteille:hover {
   transition: 0.3s;
-}
-#verreJus:hover {
   opacity: 0.7;
 }
 
@@ -207,6 +222,10 @@ body {
   .modal-content {
     width: 60%;
   }
+}
+
+#hist_limo{
+  display: none;
 }
 
 /* #titre{
