@@ -65,6 +65,18 @@ body {
   top: 658.8px;
   left: 572.8px;
 }
+
+#carreMulti{
+  width: calc(0.60rem + 12px);
+  top: 674px;
+  left: 544px;
+}
+
+#cartePost{
+  width: calc(0.60rem + 1.55vw);
+  top: 84.25vw;
+  left: 68vw;
+}
 }
 
 @media screen and (min-width: 800px) {
@@ -115,6 +127,18 @@ body {
   top: 82.35vw;
   left: 71.6vw;
 }
+
+#carreMulti{
+  width: calc(0.60rem + 1.55vw);
+  top: 84.25vw;
+  left: 68vw;
+}
+
+#cartePost{
+  width: calc(0.55rem + 1.55vw);
+  top: 60.75vw;
+  left: 41.85vw;
+}
 }
 
 @media screen and (min-width: 1266px) {
@@ -158,6 +182,18 @@ body {
   top: 1043.1px;
   left: 906.93px;
 }
+
+#carreMulti{
+  width: calc(0.60rem + 19.63px);
+  top: 1067.167px;
+  left: 861.33px;
+}
+
+#cartePost{
+  width: calc(0.60rem + 1.55vw);
+  top: 84.25vw;
+  left: 68vw;
+}
 }
 
 /* ------ */
@@ -171,14 +207,14 @@ body {
   max-width: 1900px;
 }
 
-#verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte{
+#verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost{
   display: inline-block;
   position: absolute;
   z-index: 1;
   cursor: pointer;
 }
 
-#verreJus:hover, #quatreDir:hover, #animal:hover, #bouteille:hover, #brush:hover, #carotte:hover {
+#verreJus:hover, #quatreDir:hover, #animal:hover, #bouteille:hover, #brush:hover, #carotte:hover, #carreMulti:hover, #cartePost:hover {
   transition: 0.3s;
   opacity: 0.7;
 }
