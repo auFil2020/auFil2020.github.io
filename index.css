@@ -81,15 +81,10 @@ body {
 
 @media screen and (min-width: 800px) {
 
-#carte{
-  max-width: 1900px;
-}
-
 .carteElements{
   min-width: 1200px;
   width: 150vw;
   height: auto;
-  max-width: 1900px;
 }
 
 #verreJus{
