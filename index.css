@@ -83,6 +83,42 @@ body {
   top: 665.2px;
   left: 970.8px;
 }
+
+#cercleTurq{
+  width: calc(0.45rem + 8.8px);
+  top: 632px;
+  left: 616px;
+}
+
+#croixR{
+  width: calc(0.4rem + 8.8px);
+  top: 613.6px;
+  left: 540px;
+}
+
+#cv{
+  width: calc(0.5rem + 10.8px);
+  top: 611.2px;
+  left: 398.4px;
+}
+
+#drapR{
+  width: calc(0.60rem + 15.2px);
+  top: 604.8px;
+  left: 565.2px;
+}
+
+#fart{
+  width: calc(0.75rem + 18.4px);
+  top: 366px;
+  left: 874px;
+}
+
+#fleche{
+  width: calc(0.65rem + 12px);
+  top: 402px;
+  left: 766px;
+}
 }
 
 @media screen and (min-width: 800px) {
@@ -146,6 +182,42 @@ body {
   top: 83.10vw;
   left: 121.35vw;
 }
+
+#cercleTurq{
+  width: calc(0.45rem + 1.3vw);
+  top: 79vw;
+  left: 77vw;
+}
+
+#croixR{
+  width: calc(0.4rem + 1.1vw);
+  top: 76.7vw;
+  left: 67.5vw;
+}
+
+#cv{
+  width: calc(0.5rem + 1.35vw);
+  top: 76.4vw;
+  left: 49.8vw;
+}
+
+#drapR{
+  width: calc(0.60rem + 1.9vw);
+  top: 75.6vw;
+  left: 70.65vw;
+}
+
+#fart{
+  width: calc(0.75rem + 2.3vw);
+  top: 45.75vw;
+  left: 109.25vw;
+}
+
+#fleche{
+  width: calc(0.55rem + 1.85vw);
+  top: 50.25vw;
+  left: 95.75vw;
+}
 }
 
 @media screen and (min-width: 1266px) {
@@ -207,6 +279,36 @@ body {
   top: 1052.6px;
   left: 1537.1px;
 }
+
+#cercleTurq{
+  width: calc(0.45rem + 16.467px);
+  top: 1000.667px;
+  left: 975.33px;
+}
+
+#croixR{
+  width: calc(0.4rem + 13.93px);
+  top: 971.53px;
+  left: 855px;
+}
+
+#cv{
+  width: calc(0.5rem + 17.1px);
+  top: 967.73px;
+  left: 630.8px;
+}
+
+#drapR{
+  width: calc(0.60rem + 24.0667px);
+  top: 957.6px;
+  left: 894.9px;
+}
+
+#fleche{
+  width: calc(0.55rem + 23.43px);
+  top: 636.5px;
+  left: 1212.83px;
+}
 }
 
 /* ------ */
@@ -220,7 +322,8 @@ body {
   max-width: 1900px;
 }
 
-#verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4{
+#verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
+#cv, #drapR, #fart, #fleche{
   display: inline-block;
   position: absolute;
   z-index: 1;
@@ -228,7 +331,7 @@ body {
 }
 
 #verreJus:hover, #quatreDir:hover, #animal:hover, #bouteille:hover, #brush:hover, #carotte:hover, #carreMulti:hover,
-#cartePost:hover, #cercle4:hover {
+#cartePost:hover, #cercle4:hover, #cercleTurq:hover, #croixR:hover, #cv:hover, #drapR:hover, #fart:hover, #fleche:hover {
   transition: 0.3s;
   opacity: 0.7;
 }
