@@ -23,6 +23,19 @@ body {
 
 @media screen and (max-width: 799px) {
 
+body {
+    min-width: 1200px;
+    width: 150vw;
+    background-color: white;
+    margin: 0;
+  }
+
+  #carte{
+    min-width: 1200px;
+    width: 150vw;
+    height: auto;
+  }
+
 .carteElements{
   min-width: 1200px;
   width: 100%;
