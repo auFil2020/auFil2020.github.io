@@ -233,6 +233,13 @@ body {
 }
 }
 
+/* 100% Image Width on Smaller Screens */
+@media screen and (max-width: 799px){
+  .modal-content {
+    width: 60%;
+  }
+}
+
 @media screen and (min-width: 800px) {
 
 .carteElements{
@@ -424,12 +431,7 @@ body {
 }
 
 /* ------ */
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 60%;
-  }
-}
+
 /* #titre{
   display: inline-block;
   position: absolute;
