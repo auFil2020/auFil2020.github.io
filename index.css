@@ -1,9 +1,9 @@
 body {
   display: block;
   margin: 0;
-  height: auto;
   min-width: 1200px;
   max-width: 1900px;
+  object-fit: contain;
 }
 
 #carte{
@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 0;
   overflow: visible;
 }
@@ -121,19 +121,19 @@ body {
     width: 1200px;
     background-color: white;
     margin: 0;
-    height: auto;
+    height: 1022.16px;
   }
 
   #carte{
     min-width: 1200px;
     width: 1200px;
-    height: auto;
+    height: 1022.16px;
   }
 
 .carteElements{
   min-width: 1200px;
   width: 1200px;
-  height: auto;
+  height: 1022.16px;
 }
 
 #verreJus{
