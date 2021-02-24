@@ -22,10 +22,6 @@ body {
 .carteElements{
   display: block;
   position: relative;
-  min-width: 1200px;
-  width: 150vw;
-  height: auto;
-  max-width: 1900px;
 }
 
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
@@ -137,9 +133,8 @@ body {
 
 .carteElements{
   min-width: 1200px;
-  width: 100%;
+  width: 150vw;
   height: auto;
-  max-width: 1900px;
 }
 
 #verreJus{
@@ -340,6 +335,12 @@ body {
 }
 
 @media screen and (min-width: 1266px) {
+
+.carteElements{
+    width: 150vw;
+    height: auto;
+    max-width: 1900px;
+  }
 
 #carte{
   max-width: 1900px;
