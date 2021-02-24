@@ -118,7 +118,7 @@ body {
 
 body {
     min-width: 1200px;
-    width: 150vw;
+    width: 1200px;
     background-color: white;
     margin: 0;
     height: auto;
@@ -126,13 +126,13 @@ body {
 
   #carte{
     min-width: 1200px;
-    width: 150vw;
+    width: 1200px;
     height: auto;
   }
 
 .carteElements{
   min-width: 1200px;
-  width: 150vw;
+  width: 1200px;
   height: auto;
 }
 
