@@ -2,6 +2,8 @@ body {
   display: block;
   margin: 0;
   height: auto;
+  min-width: 1200px;
+  max-width: 1900px;
 }
 
 #carte{
@@ -9,13 +11,10 @@ body {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1200px;
-  width: 150vw;
-  height: auto;
   position: absolute;
   object-fit: cover;
   z-index: 0;
-  overflow: auto;
+  overflow: visible;
 }
 
 .carteElements{
