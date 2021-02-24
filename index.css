@@ -245,6 +245,12 @@ body {
       height: auto;
     }
 
+#carte{
+      min-width: 1200px;
+      width: 150vw;
+      height: auto;
+    }
+
 .carteElements{
   min-width: 1200px;
   width: 150vw;
@@ -358,6 +364,8 @@ body {
   }
 
 #carte{
+  width: 150vw;
+  height: auto;
   max-width: 1900px;
 }
 
