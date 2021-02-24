@@ -3,7 +3,7 @@ body {
   margin: 0;
   min-width: 1200px;
   max-width: 1900px;
-  object-fit: contain;
+  height: 100%;
 }
 
 #carte{
@@ -20,6 +20,7 @@ body {
 .carteElements{
   display: block;
   position: relative;
+  overflow: visible;
 }
 
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
@@ -28,6 +29,7 @@ body {
   position: absolute;
   z-index: 1;
   cursor: pointer;
+  overflow: visible;
 }
 
 #verreJus:hover, #quatreDir:hover, #animal:hover, #bouteille:hover, #brush:hover, #carotte:hover, #carreMulti:hover,
@@ -121,19 +123,19 @@ body {
     width: 1200px;
     background-color: white;
     margin: 0;
-    height: 1022.16px;
+    height: auto;
   }
 
   #carte{
     min-width: 1200px;
     width: 1200px;
-    height: 1022.16px;
+    height: auto;
   }
 
 .carteElements{
   min-width: 1200px;
   width: 1200px;
-  height: 1022.16px;
+  height: auto;
 }
 
 #verreJus{
