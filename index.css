@@ -12,7 +12,8 @@ body {
 
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
 #cv, #drapR, #fart, #fleche, #fleche2, #fleche3, #fleche4, #fleche5, #fleche6, #fleche1_1, #fleche1_2, #fleche1_3, #fleche1_4, #fleche1_5,
-#fleche1_6, #fleche1_7, #fleche1_8, #fleursR, #grayC, #iloveyou, #kwe, #lit, #livre, #maison, #plumes, #poubelle, #scissors, #seringue, #serpent{
+#fleche1_6, #fleche1_7, #fleche1_8, #fleursR, #grayC, #iloveyou, #kwe, #lit, #livre, #maison, #plumes, #poubelle, #scissors, #seringue,
+#serpent, #botte, #jarana, #oiseau, #sapin{
   display: inline-block; position: absolute; z-index: 1; cursor: pointer; overflow: visible;
 }
 
@@ -20,46 +21,9 @@ body {
 #cartePost:hover, #cercle4:hover, #cercleTurq:hover, #croixR:hover, #cv:hover, #drapR:hover, #fart:hover, #fleche:hover, #fleche2:hover,
 #fleche3:hover, #fleche4:hover, #fleche5:hover, #fleche6:hover, #fleche1_1:hover, #fleche1_2:hover, #fleche1_3:hover, #fleche1_4:hover,
 #fleche1_5:hover, #fleche1_6:hover, #fleche1_7:hover, #fleche1_8:hover, #fleursR:hover, #grayC:hover, #iloveyou:hover, #kwe:hover, #lit:hover, #livre:hover, #maison:hover,
-#plumes:hover, #poubelle:hover, #scissors:hover, #seringue:hover, #serpent:hover {
+#plumes:hover, #poubelle:hover, #scissors:hover, #seringue:hover, #serpent:hover, #botte:hover, #jarana:hover, #oiseau:hover, #sapin:hover {
   transition: 0.3s; opacity: 0.7;
 }
-
-/* The Modal (background) */
-.modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 2; /* Sit on top */ padding-top: 100px;
-  /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto;
-  /* Enable scroll if needed */ background-color: rgb(0,0,0); /* Fallback color */ background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content { margin: auto; display: block; width: 80%; max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption { margin: auto; display: block; width: 80%; max-width: 700px; text-align: center; color: #ccc; padding: 10px 0; height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom { from {-webkit-transform:scale(0)} to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom { from {transform:scale(0)} to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; transition: 0.3s;
-}
-
-.close:hover,
-.close:focus { color: #bbb; text-decoration: none; cursor: pointer;
-}
-
-#hist_limo{
-  display: none;
-}
-
 
 /* ----- */
 
@@ -74,16 +38,16 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 .carteElements{ min-width: 1200px; width: 1200px; height: auto;
 }
 
-#verreJus{ width: calc(1rem + 2px); top: 240px; left: 1032px;
+#verreJus{ width: calc(0.35rem + 8.4px); top: 242px; left: 1036px;
 }
 
-#quatreDir{ width: calc(1rem + 2px); top: 752px; left: 880px;
+#quatreDir{ width: calc(0.7rem + 7.2px); top: 750.8px; left: 878.8px;
 }
 
 #animal{ width: calc(1.15rem + 22px); top: 640px; left: 524.4px;
 }
 
-#bouteille{ width: calc(0.55rem + 9.2px); top: 756px; left: 844px;
+#bouteille{ width: calc(0.45rem + 10px); top: 756px; left: 844px;
 }
 
 #brush{ width: calc(0.40rem + 6px); top: 304px; left: 819.2px;
@@ -170,7 +134,7 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 #kwe{ width: calc(0.65rem + 14.4px); top: 718px; left: 878.8px;
 }
 
-#lit{ width: calc(0.9rem + 15.2px); top: 618px; left: 973.2px;
+#lit{ width: calc(0.8rem + 15.2px); top: 618px; left: 973.2px;
 }
 
 #livre{ width: calc(0.5rem + 14.4px); top: 732px; left: 572px;
@@ -193,6 +157,18 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 
 #serpent{ width: calc(0.05rem + 9.2px); top: 194.8px; left: 750px;
 }
+
+#botte{ width: calc(0.25rem + 18.8px); top: 57.6px; left: 530px;
+}
+
+#jarana{ width: calc(0.25rem + 14px); top: 347.6px; left: 351.2px;
+}
+
+#oiseau{ width: calc(0.45rem + 16.4px); top: 421.2px; left: 934.8px;
+}
+
+#sapin{ width: calc(0.45rem + 9.2px); top: 198px; left: 618.8px;
+}
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -213,16 +189,16 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 .carteElements{ min-width: 1200px; width: 150vw; height: auto;
 }
 
-#verreJus{ width: calc(0.6rem + 0.75vw); top: 30.25vw; left: 129.5vw;
+#verreJus{ width: calc(0.35rem + 1.05vw); top: 30.25vw; left: 129.5vw;
 }
 
-#quatreDir{ width: calc(1rem + 0.3vw); top: 94vw; left: 110vw;
+#quatreDir{ width: calc(0.7rem + 0.9vw); top: 93.85vw; left: 109.85vw;
 }
 
 #animal{ width: calc(1.15rem + 2.75vw); top: 80vw; left: 65.55vw;
 }
 
-#bouteille{ width: calc(0.55rem + 1.15vw); top: 94.5vw; left: 105.5vw;
+#bouteille{ width: calc(0.45rem + 1.25vw); top: 94.5vw; left: 105.5vw;
 }
 
 #brush{ width: calc(0.40rem + 0.75vw); top: 38vw; left: 102.4vw;
@@ -309,7 +285,7 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 #kwe{ width: calc(0.65rem + 1.8vw); top: 89.75vw; left: 109.85vw;
 }
 
-#lit{ width: calc(0.9rem + 1.9vw); top: 77.25vw; left: 121.65vw;
+#lit{ width: calc(0.8rem + 1.9vw); top: 77.25vw; left: 121.65vw;
 }
 
 #livre{ width: calc(0.5rem + 1.8vw); top: 91.5vw; left: 71.5vw;
@@ -332,7 +308,20 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 
 #serpent{ width: calc(0.05rem + 1.15vw); top: 24.35vw; left: 93.75vw;
 }
+
+#botte{ width: calc(0.25rem + 2.35vw); top: 7.2vw; left: 66.25vw;
 }
+
+#jarana{ width: calc(0.25rem + 1.75vw); top: 43.45vw; left: 43.9vw;
+}
+
+#oiseau{ width: calc(0.45rem + 2.05vw); top: 52.65vw; left: 116.85vw;
+}
+
+#sapin{ width: calc(0.45rem + 1.15vw); top: 24.75vw; left: 77.35vw;
+}
+}
+
 
 @media screen and (min-width: 1266px) {
 
@@ -345,16 +334,16 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 #carte{ width: 150vw; height: auto; max-width: 1900px;
 }
 
-#verreJus{ width: calc(1rem + 3.166px); top: 384px; left: 1639px;
+#verreJus{ width: calc(0.35rem + 13.3px); top: 384px; left: 1640.33px;
 }
 
-#quatreDir{ width: calc(1rem + 3.166px); top: 1190.6px; left: 1393.3px;
+#quatreDir{ width: calc(0.7rem + 11.4px); top: 1188.767px; left: 1391.43px;
 }
 
 #animal{ width: calc(1.15rem + 34.833px); top: 1013.33px; left: 830.3px;
 }
 
-#bouteille{ width: calc(0.55rem + 14.56px); top: 1197px; left: 1336.33px;
+#bouteille{ width: calc(0.45rem + 15.83px); top: 1197px; left: 1336.33px;
 }
 
 #brush{ width: calc(0.40rem + 9.5px); top: 481.33px; left: 1297.066px;
@@ -441,7 +430,7 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 #kwe{ width: calc(0.65rem + 22.8px); top: 1136.83px; left: 1391.43px;
 }
 
-#lit{ width: calc(0.9rem + 24.067px); top: 978.5px; left: 1540.9px;
+#lit{ width: calc(0.8rem + 24.067px); top: 978.5px; left: 1540.9px;
 }
 
 #livre{ width: calc(0.5rem + 22.8px); top: 1159px; left: 905.667px;
@@ -464,7 +453,67 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 
 #serpent{ width: calc(0.05rem + 14.567px); top: 308.43px; left: 1187.5px;
 }
+
+#botte{ width: calc(0.25rem + 29.767px); top: 91.2px; left: 839.167px;
 }
+
+#jarana{ width: calc(0.25rem + 22.167px); top: 550.367px; left: 556.067px;
+}
+
+#sapin{ width: calc(0.45rem + 14.567px); top: 313.5px; left: 979.767px;
+}
+
+#oiseau{ width: calc(0.45rem + 25.967px); top: 666.9px; left: 1480.1px;
+}
+}
+
+/* The Modal (background) */
+.modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 2; /* Sit on top */ padding-top: 100px;
+  /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto;
+  /* Enable scroll if needed */ background-color: rgb(0,0,0); /* Fallback color */ background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content { margin: auto; display: block; width: 80%; max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption { margin: auto; display: block; width: 80%; max-width: 700px; text-align: center; color: #ccc; padding: 10px 0; height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom { from {-webkit-transform:scale(0)} to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom { from {transform:scale(0)} to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close { position: absolute; top: 15px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; transition: 0.3s; z-index: 2;
+}
+
+.close:hover,
+.close:focus { color: #bbb; text-decoration: none; cursor: pointer;
+}
+
+#hist_limo, #hist_medi, #hist_rorq, #hist_quil, #hist_pinc, #hist_caro, #hist_cour, #hist_fact, #hist_mobi, #hist_comm, #hist_croi, #hist_cv,
+#hist_fene, #hist_fart, #hist_flec, #hist_jard, #hist_coff, #hist_tato, #hist_kwe, #hist_lit, #hist_bibl, #hist_luca, #hist_plum, #hist_garb,
+#hist_salo, #hist_seri, #hist_ateb, #hist_bott, #hist_jara, #hist_oise, #hist_blue{
+  display: none;
+  /* margin-left: 25vw;
+  width: 50vw; */
+
+}
+
+.hist{
+  display: none;
+  /* margin-left: 25vw;
+  width: 50vw; */
+}
+
 
 /* ------ */
 
