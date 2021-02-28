@@ -1,5 +1,5 @@
 body {
-  display: block; max-width: 1900px; min-width: 1200px; width: 1200px; background-color: white; margin: 0; height: auto;
+  display: block; max-width: 1900px; min-width: 1200px; background-color: white; margin: 0; height: auto;
 }
 
 #carte{
@@ -63,13 +63,13 @@ body {
 
 /* ----- */
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 800px) {
 
 body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; height: auto;
-  }
+}
 
-  #carte{ min-width: 1200px; width: 1200px; height: auto;
-  }
+#carte{ min-width: 1200px; width: 1200px; height: auto;
+}
 
 .carteElements{ min-width: 1200px; width: 1200px; height: auto;
 }
@@ -172,6 +172,27 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 
 #lit{ width: calc(0.9rem + 15.2px); top: 618px; left: 973.2px;
 }
+
+#livre{ width: calc(0.5rem + 14.4px); top: 732px; left: 572px;
+}
+
+#maison{ width: calc(0.3rem + 16px); top: 354px; left: 940.8px;
+}
+
+#plumes{ width: calc(0.1rem + 16px); top: 637.2px; left: 561.2px;
+}
+
+#poubelle{ width: calc(0.1rem + 10.4px); top: 432px; left: 310.4px;
+}
+
+#scissors{ width: calc(0.4rem + 15.6px); top: 625.6px; left: 692px;
+}
+
+#seringue{ width: calc(0.05rem + 12px); top: 558.8px; left: 547.6px;
+}
+
+#serpent{ width: calc(0.05rem + 9.2px); top: 194.8px; left: 750px;
+}
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -192,7 +213,7 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 .carteElements{ min-width: 1200px; width: 150vw; height: auto;
 }
 
-#verreJus{ width: calc(0.75rem + 0.25vw); top: 30.25vw; left: 129.5vw;
+#verreJus{ width: calc(0.6rem + 0.75vw); top: 30.25vw; left: 129.5vw;
 }
 
 #quatreDir{ width: calc(1rem + 0.3vw); top: 94vw; left: 110vw;
@@ -289,6 +310,27 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 }
 
 #lit{ width: calc(0.9rem + 1.9vw); top: 77.25vw; left: 121.65vw;
+}
+
+#livre{ width: calc(0.5rem + 1.8vw); top: 91.5vw; left: 71.5vw;
+}
+
+#maison{ width: calc(0.3rem + 2vw); top: 44.25vw; left: 117.6vw;
+}
+
+#plumes{ width: calc(0.1rem + 2vw); top: 79.65vw; left: 70.15vw;
+}
+
+#poubelle{ width: calc(0.1rem + 1.3vw); top: 54vw; left: 38.8vw;
+}
+
+#scissors{ width: calc(0.4rem + 1.95vw); top: 78.2vw; left: 86.5vw;
+}
+
+#seringue{ width: calc(0.05rem + 1.5vw); top: 69.85vw; left: 68.45vw;
+}
+
+#serpent{ width: calc(0.05rem + 1.15vw); top: 24.35vw; left: 93.75vw;
 }
 }
 
@@ -400,6 +442,27 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 }
 
 #lit{ width: calc(0.9rem + 24.067px); top: 978.5px; left: 1540.9px;
+}
+
+#livre{ width: calc(0.5rem + 22.8px); top: 1159px; left: 905.667px;
+}
+
+#maison{ width: calc(0.3rem + 25.33px); top: 560.5px; left: 1489.6px;
+}
+
+#plumes{ width: calc(0.1rem + 25.33px); top: 1008.9px; left: 888.567px;
+}
+
+#poubelle{ width: calc(0.1rem + 16.467px); top: 684px; left: 491.467px;
+}
+
+#scissors{ width: calc(0.4rem + 24.7px); top: 990.53px; left: 1095.667px;
+}
+
+#seringue{ width: calc(0.05rem + 19px); top: 884.767px; left: 867.03px;
+}
+
+#serpent{ width: calc(0.05rem + 14.567px); top: 308.43px; left: 1187.5px;
 }
 }
 
