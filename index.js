@@ -4,11 +4,11 @@ var modal = document.getElementsByClassName("modal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var images = document.getElementsByClassName("icon");
-console.log(images);
+
 var histoires = document.getElementsByClassName("hist");
 //var hist = document.getElementById("hist_limo");
 var modalImg = document.getElementsByClassName("modal-content");
-console.log(modalImg);
+
 var captionText = document.getElementsByClassName("alternative");
 
 var i;
