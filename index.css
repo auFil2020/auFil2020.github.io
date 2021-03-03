@@ -13,7 +13,7 @@ body {
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
 #cv, #drapR, #fart, #fleche, #fleche2, #fleche3, #fleche4, #fleche5, #fleche6, #fleche1_1, #fleche1_2, #fleche1_3, #fleche1_4, #fleche1_5,
 #fleche1_6, #fleche1_7, #fleche1_8, #fleursR, #grayC, #iloveyou, #kwe, #lit, #livre, #maison, #plumes, #poubelle, #scissors, #seringue,
-#serpent, #botte, #jarana, #oiseau, #sapin{
+#serpent, #botte, #jarana, #oiseau, #sapin, #rose{
   display: inline-block; position: absolute; z-index: 1; cursor: pointer; overflow: visible;
 }
 
@@ -21,7 +21,7 @@ body {
 #cartePost:hover, #cercle4:hover, #cercleTurq:hover, #croixR:hover, #cv:hover, #drapR:hover, #fart:hover, #fleche:hover, #fleche2:hover,
 #fleche3:hover, #fleche4:hover, #fleche5:hover, #fleche6:hover, #fleche1_1:hover, #fleche1_2:hover, #fleche1_3:hover, #fleche1_4:hover,
 #fleche1_5:hover, #fleche1_6:hover, #fleche1_7:hover, #fleche1_8:hover, #fleursR:hover, #grayC:hover, #iloveyou:hover, #kwe:hover, #lit:hover, #livre:hover, #maison:hover,
-#plumes:hover, #poubelle:hover, #scissors:hover, #seringue:hover, #serpent:hover, #botte:hover, #jarana:hover, #oiseau:hover, #sapin:hover {
+#plumes:hover, #poubelle:hover, #scissors:hover, #seringue:hover, #serpent:hover, #botte:hover, #jarana:hover, #oiseau:hover, #sapin:hover, #rose:hover {
   transition: 0.3s; opacity: 0.7;
 }
 
@@ -168,6 +168,9 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 }
 
 #sapin{ width: calc(0.45rem + 9.2px); top: 198px; left: 618.8px;
+}
+
+#rose{ width: calc(0.45rem + 16.4px); top: 435.6px; left: 1026.8px;
 }
 }
 
@@ -320,6 +323,9 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 
 #sapin{ width: calc(0.45rem + 1.15vw); top: 24.75vw; left: 77.35vw;
 }
+
+#rose{ width: calc(0.45rem + 2.05vw); top: 54.45vw; left: 128.35vw;
+}
 }
 
 
@@ -460,10 +466,13 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 #jarana{ width: calc(0.25rem + 22.167px); top: 550.367px; left: 556.067px;
 }
 
+#oiseau{ width: calc(0.45rem + 25.967px); top: 666.9px; left: 1480.1px;
+}
+
 #sapin{ width: calc(0.45rem + 14.567px); top: 313.5px; left: 979.767px;
 }
 
-#oiseau{ width: calc(0.45rem + 25.967px); top: 666.9px; left: 1480.1px;
+#rose{ width: calc(0.45rem + 25.967px); top: 689.7px; left: 1625.767px;
 }
 }
 
@@ -501,7 +510,7 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 
 #hist_limo, #hist_medi, #hist_rorq, #hist_quil, #hist_pinc, #hist_caro, #hist_cour, #hist_fact, #hist_mobi, #hist_comm, #hist_croi, #hist_cv,
 #hist_fene, #hist_fart, #hist_flec, #hist_jard, #hist_coff, #hist_tato, #hist_kwe, #hist_lit, #hist_bibl, #hist_luca, #hist_plum, #hist_garb,
-#hist_salo, #hist_seri, #hist_ateb, #hist_bott, #hist_jara, #hist_oise, #hist_blue{
+#hist_salo, #hist_seri, #hist_ateb, #hist_bott, #hist_jara, #hist_oise, #hist_blue, #hist_rose{
   display: none;
   /* margin-left: 25vw;
   width: 50vw; */
