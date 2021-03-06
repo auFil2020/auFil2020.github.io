@@ -514,7 +514,7 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 }
 
 #aufil_intro{
-  display: block;
+  display: none;
 }
 
 #hist_limo, #hist_medi, #hist_rorq, #hist_quil, #hist_pinc, #hist_caro, #hist_cour, #hist_fact, #hist_mobi, #hist_comm, #hist_croi, #hist_cv,
