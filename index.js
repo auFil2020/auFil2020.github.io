@@ -23,7 +23,7 @@ var span = document.getElementsByClassName("close");
 
 window.onload = function(){
     modalintro[0].style.display = 'block';
-    intro[0].style.display = 'block';
+    //intro[0].style.display = 'block';
     modalImgIntro[0].src = intro[0].src;
     //modalImg.src = images[i].src;
     //captionText[i].innerHTML = histoires[i].alt;
@@ -44,7 +44,7 @@ function modalAppear (i, images) {
 images.onclick = function(){
 
     modal[i].style.display = 'block';
-    histoires[i].style.display = 'block';
+    //histoires[i].style.display = 'block';
     console.log(i);
     modalImg[i].src = histoires[i].src;
     //modalImg.src = images[i].src;
