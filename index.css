@@ -13,7 +13,7 @@ body {
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
 #cv, #drapR, #fart, #fleche, #fleche2, #fleche3, #fleche4, #fleche5, #fleche6, #fleche1_1, #fleche1_2, #fleche1_3, #fleche1_4, #fleche1_5,
 #fleche1_6, #fleche1_7, #fleche1_8, #fleursR, #grayC, #iloveyou, #kwe, #lit, #livre, #maison, #plumes, #poubelle, #scissors, #seringue,
-#serpent, #botte, #jarana, #oiseau, #sapin, #rose{
+#serpent, #botte, #jarana, #oiseau, #sapin, #rose, #legende{
   display: inline-block; position: absolute; z-index: 1; cursor: pointer; overflow: visible;
 }
 
@@ -172,6 +172,9 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 
 #rose{ width: calc(0.45rem + 16.4px); top: 435.6px; left: 1026.8px;
 }
+
+#legende{ width: 262px; bottom: 40px; right: 40px;
+}
 }
 
 /* 100% Image Width on Smaller Screens */
@@ -326,6 +329,9 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 
 #rose{ width: calc(0.45rem + 2.05vw); top: 54.45vw; left: 128.35vw;
 }
+
+#legende{ width: 262px; top: 1100px; left: 1600px;
+}
 }
 
 
@@ -474,7 +480,11 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 
 #rose{ width: calc(0.45rem + 25.967px); top: 689.7px; left: 1625.767px;
 }
+
+#legende{ width: 262px; top: 1100px; left: 1600px;
 }
+}
+
 .modalIntro { display: block; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 2; /* Sit on top */ padding-top: 100px;
   /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto;
   /* Enable scroll if needed */ background-color: rgb(0,0,0); /* Fallback color */ background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
@@ -519,7 +529,7 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 
 #hist_limo, #hist_medi, #hist_rorq, #hist_quil, #hist_pinc, #hist_caro, #hist_cour, #hist_fact, #hist_mobi, #hist_comm, #hist_croi, #hist_cv,
 #hist_fene, #hist_fart, #hist_flec, #hist_jard, #hist_coff, #hist_tato, #hist_kwe, #hist_lit, #hist_bibl, #hist_luca, #hist_plum, #hist_garb,
-#hist_salo, #hist_seri, #hist_ateb, #hist_bott, #hist_jara, #hist_oise, #hist_blue, #hist_rose{
+#hist_salo, #hist_seri, #hist_ateb, #hist_bott, #hist_jara, #hist_oise, #hist_blue, #hist_rose #hist_legende{
   display: none;
   /* margin-left: 25vw;
   width: 50vw; */
