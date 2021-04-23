@@ -19,9 +19,8 @@ body {
 
 img.icon:hover,
 img.icon:focus {
-  transition: .2s;
-  transform: scale(2.15);
-  transition: 0.6s; 
+  transform: scale(1.5);
+  transition: 0.4s; 
   opacity: 1.0;
 }
 
