@@ -11,6 +11,7 @@ var intro = document.getElementsByClassName("intro");
 var modalintro = document.getElementsByClassName("modalIntro");
 var modalImgIntro = document.getElementsByClassName("modal-content2");
 var spanIntro = document.getElementsByClassName("close2");
+var acceder = document.getElementsByClassName("acceder");
 var captionTextIntro = document.getElementsByClassName("alternative2");
 
 var modalImg = document.getElementsByClassName("modal-content");
@@ -32,6 +33,10 @@ window.onload = function(){
       modalintro[0].style.display = 'none';
       intro[0].style.display = 'none';
     }
+    acceder[0].onclick = function() {
+      modalintro[0].style.display = 'none';
+      intro[0].style.display = 'none';
+    }
 }
 
 for (i = 0, len = images.length; i < len; i++){
@@ -47,6 +52,7 @@ images.onclick = function(){
     //histoires[i].style.display = 'block';
     console.log(i);
     modalImg[i].src = histoires[i].src;
+    
     //modalImg.src = images[i].src;
     //captionText[i].innerHTML = histoires[i].alt;
     // Get the <span> element that closes the modal
@@ -55,6 +61,11 @@ images.onclick = function(){
       histoires[i].style.display = 'none';
     }
 }
+}
+
+function closeIntro()
+{
+
 }
 
 
