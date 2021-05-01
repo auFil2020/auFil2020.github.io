@@ -13,11 +13,11 @@ body {
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
 #cv, #drapR, #fart, #fleche, #fleche2, #fleche3, #fleche4, #fleche5, #fleche6, #fleche1_1, #fleche1_2, #fleche1_3, #fleche1_4, #fleche1_5,
 #fleche1_6, #fleche1_7, #fleche1_8, #fleursR, #grayC, #iloveyou, #kwe, #lit, #livre, #maison, #plumes, #poubelle, #scissors, #seringue,
-#serpent, #botte, #jarana, #oiseau, #sapin, #rose, #legende{
+#serpent, #botte, #jarana, #oiseau, #sapin, #rose, #legende, #moreInfo{
   display: inline-block; position: absolute; z-index: 1; cursor: pointer; overflow: visible;
 }
 
-img.icon:hover,
+img.icon:not(.nohover):hover,
 img.icon:focus {
   transform: scale(1.5);
   transition: 0.4s; 
@@ -175,7 +175,10 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 #rose{ width: calc(0.45rem + 16.4px); top: 435.6px; left: 1026.8px;
 }
 
-#legende{ width: 222px; top: 690px; left: 970px;
+#legende{ width: calc(0.45rem + 168.4px); top: 690px; left: 1015px;
+}
+
+#moreInfo{ width: calc(0.45rem + 100.4px); top: 655px; left: 1075px;
 }
 
 .acceder{ 
@@ -190,17 +193,6 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
   cursor: pointer; 
 }
 
-#more_info{ 
-  background-image:url('./info.jpg'); 
-  width: 121px;
-  height: 40px; 
-  top: 90%; 
-  left: 220%;  
-  display: inline-block; 
-  position: absolute; 
-  z-index: 1; 
-  cursor: pointer; 
-}
 
 }
 
@@ -358,25 +350,16 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 #rose{ width: calc(0.45rem + 2.05vw); top: 54.45vw; left: 128.35vw;
 }
 
-#legende{ width: 262px; top: 1100px; left: 1600px;
+#legende{ width: calc(0.45rem + 22vw); top: 1070px; left: 1570px;
+}
+
+#moreInfo{ width: calc(0.45rem + 100px); height: calc(0.45rem + 25px); top: 1030px; left: 1750px;
 }
 
 .acceder{ 
   background-image:url('./acceder.jpg'); 
   width: 162px; 
   height: 47px;
-  top: 140%; 
-  left: 135%; 
-  display: inline-block; 
-  position: absolute; 
-  z-index: 1; 
-  cursor: pointer; 
-}
-
-#more_info{ 
-  background-image:url('./info.jpg'); 
-  width: 121px;
-  height: 40px; 
   top: 140%; 
   left: 135%; 
   display: inline-block; 
@@ -534,19 +517,10 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 #rose{ width: calc(0.45rem + 25.967px); top: 689.7px; left: 1625.767px;
 }
 
-#legende{ width: 282px; top: 1090px; left: 1600px;
+#legende{ width: calc(0.45rem + 275px); top: 1090px; left: 1600px;
 }
 
-#more_info{ 
-  background-image:url('./info.jpg'); 
-  width: 121px;
-  height: 40px; 
-  top: 140%; 
-  left: 135%; 
-  display: inline-block; 
-  position: absolute; 
-  z-index: 1; 
-  cursor: pointer; 
+#moreInfo{ top: 1050px; left: 1750px; width: calc(0.45rem + 115px); height: calc(0.45rem + 30px); 
 }
 
 .acceder{ 
