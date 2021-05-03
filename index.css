@@ -181,18 +181,17 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 #moreInfo{ width: calc(0.45rem + 100.4px); top: 655px; left: 1075px;
 }
 
+/* Start button */
 .acceder{ 
   background-image:url('./acceder.jpg'); 
+  background-size: cover;
   width: 162px; 
-  height: 47px;
-  top: 88%;
-  left: 220px;
-  display: inline-block; 
-  position: absolute; 
-  z-index: 1; 
-  cursor: pointer; 
+  height: 47px; 
+  position: absolute;
+  left: 35%;
+  cursor: pointer;
+  
 }
-
 
 }
 
@@ -356,16 +355,16 @@ body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; heig
 #moreInfo{ width: calc(0.45rem + 100px); height: calc(0.45rem + 25px); top: 1030px; left: 1750px;
 }
 
+/* Start button */
 .acceder{ 
   background-image:url('./acceder.jpg'); 
+  background-size: cover;
   width: 162px; 
-  height: 47px;
-  top: 140%; 
-  left: 135%; 
-  display: inline-block; 
-  position: absolute; 
-  z-index: 1; 
-  cursor: pointer; 
+  height: 47px; 
+  position: absolute;
+  left: 40%;
+  cursor: pointer;
+  
 }
 
 }
@@ -523,15 +522,17 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 #moreInfo{ top: 1050px; left: 1750px; width: calc(0.45rem + 115px); height: calc(0.45rem + 30px); 
 }
 
+/* Start button */
 .acceder{ 
   background-image:url('./acceder.jpg'); 
-  width: 162px; 
-  height: 47px; 
+  background-size: cover;
+  width: 324px; 
+  height: 94px; 
   position: absolute;
-  bottom: -28%;
   left: 45%;
+  cursor: pointer;
+  
 }
-
 
 }
 
@@ -545,6 +546,23 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
   /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto;
   /* Enable scroll if needed */ background-color: rgb(0,0,0); /* Fallback color */ background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
+
+ /* Container holding anything that goes on or below the modal */
+ .modalContainer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/* block to put things on or below modal */
+.modalZ-block {
+  position: absolute;
+  z-index: 3;
+  bottom: 3%;
+  background-color: black;
+  color: white;
+  text-align: center;
+} 
 
 /* Modal Content (image) */
 .modal-content, .modal-content2 { margin: auto; display: block; width: 80%; max-width: 700px;

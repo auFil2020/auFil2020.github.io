@@ -9,7 +9,7 @@ var histoires = document.getElementsByClassName("hist");
 
 var intro = document.getElementsByClassName("intro");
 var modalintro = document.getElementsByClassName("modalIntro");
-var modalImgIntro = document.getElementsByClassName("modal-content2");
+var modalImgIntro = document.getElementsByClassName("modalIntroImage");
 var spanIntro = document.getElementsByClassName("close2");
 var acceder = document.getElementsByClassName("acceder");
 var captionTextIntro = document.getElementsByClassName("alternative2");
