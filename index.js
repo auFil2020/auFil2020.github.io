@@ -46,27 +46,23 @@ for (i = 0, len = images.length; i < len; i++){
 
 function modalAppear (i, images) {
 
-images.onclick = function(){
+    images.onclick = function(){
 
-    modal[i].style.display = 'block';
-    //histoires[i].style.display = 'block';
-    console.log(i);
-    modalImg[i].src = histoires[i].src;
-    
-    //modalImg.src = images[i].src;
-    //captionText[i].innerHTML = histoires[i].alt;
-    // Get the <span> element that closes the modal
-    span[i].onclick = function() {
-      modal[i].style.display = 'none';
-      histoires[i].style.display = 'none';
+      modal[i].style.display = 'block';
+      //histoires[i].style.display = 'block';
+      console.log(i);
+      modalImg[i].src = histoires[i].src;
+      
+      //modalImg.src = images[i].src;
+      //captionText[i].innerHTML = histoires[i].alt;
+      // Get the <span> element that closes the modal
+      span[i].onclick = function() {
+        modal[i].style.display = 'none';
+        histoires[i].style.display = 'none';
+      }
     }
 }
-}
 
-function closeIntro()
-{
-
-}
 
 
 // function modalAppear (evt) {

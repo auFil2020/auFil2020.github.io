@@ -535,9 +535,10 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
   
 }
 
+
 }
 
-.modalIntro { display: block; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 2; /* Sit on top */ padding-top: 100px;
+.modalIntro { display: block; /* Shown when the page is loaded */ position: fixed; /* Stay in place */ z-index: 2; /* Sit on top */ padding-top: 100px;
   /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto;
   /* Enable scroll if needed */ background-color: rgb(0,0,0); /* Fallback color */ background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
@@ -614,6 +615,28 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
   width: 50vw; */
 }
 
+.responsive{
+  max-width:100%;
+  max-height:100%;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: 37%;
+  transform: translate(-50%, -50%);
+}
 
 /* top: 1250px; left: 800px; position: relative; */
 
