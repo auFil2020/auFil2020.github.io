@@ -31,168 +31,155 @@ img.icon:focus {
 
 @media screen and (max-width: 800px) {
 
-body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; height: auto;
-}
+  body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; height: auto;
+  }
 
-#carte{ min-width: 1200px; width: 1200px; height: auto;
-}
+  #carte{ min-width: 1200px; width: 1200px; height: auto;
+  }
 
-.carteElements{ min-width: 1200px; width: 1200px; height: auto;
-}
+  .carteElements{ min-width: 1200px; width: 1200px; height: auto;
+  }
 
-#verreJus{ width: calc(0.35rem + 8.4px); top: 242px; left: 1036px;
-}
+  #verreJus{ width: calc(0.35rem + 8.4px); top: 242px; left: 1036px;
+  }
 
-#quatreDir{ width: calc(0.7rem + 7.2px); top: 750.8px; left: 878.8px;
-}
+  #quatreDir{ width: calc(0.7rem + 7.2px); top: 750.8px; left: 878.8px;
+  }
 
-#animal{ width: calc(1.15rem + 22px); top: 640px; left: 524.4px;
-}
+  #animal{ width: calc(1.15rem + 22px); top: 640px; left: 524.4px;
+  }
 
-#bouteille{ width: calc(0.45rem + 10px); top: 756px; left: 844px;
-}
+  #bouteille{ width: calc(0.45rem + 10px); top: 756px; left: 844px;
+  }
 
-#brush{ width: calc(0.40rem + 6px); top: 304px; left: 819.2px;
-}
+  #brush{ width: calc(0.40rem + 6px); top: 304px; left: 819.2px;
+  }
 
-#carotte{ width: calc(0.20rem + 8.8px); top: 658.8px; left: 572.8px;
-}
+  #carotte{ width: calc(0.20rem + 8.8px); top: 658.8px; left: 572.8px;
+  }
 
-#carreMulti{ width: calc(0.60rem + 12px); top: 674px; left: 544px;
-}
+  #carreMulti{ width: calc(0.60rem + 12px); top: 674px; left: 544px;
+  }
 
-#cartePost{ width: calc(0.55rem + 12.4px); top: 486px; left: 334.8px;
-}
+  #cartePost{ width: calc(0.55rem + 12.4px); top: 486px; left: 334.8px;
+  }
 
-#cercle4{ width: calc(0.7rem + 6px); top: 665.2px; left: 970.8px;
-}
+  #cercle4{ width: calc(0.7rem + 6px); top: 665.2px; left: 970.8px;
+  }
 
-#cercleTurq{ width: calc(0.45rem + 8.8px); top: 632px; left: 616px;
-}
+  #cercleTurq{ width: calc(0.45rem + 8.8px); top: 632px; left: 616px;
+  }
 
-#croixR{ width: calc(0.4rem + 8.8px); top: 613.6px; left: 540px;
-}
+  #croixR{ width: calc(0.4rem + 8.8px); top: 613.6px; left: 540px;
+  }
 
-#cv{ width: calc(0.5rem + 10.8px); top: 611.2px; left: 398.4px;
-}
+  #cv{ width: calc(0.5rem + 10.8px); top: 611.2px; left: 398.4px;
+  }
 
-#drapR{ width: calc(0.60rem + 15.2px); top: 604.8px; left: 565.2px;
-}
+  #drapR{ width: calc(0.60rem + 15.2px); top: 604.8px; left: 565.2px;
+  }
 
-#fart{ width: calc(0.75rem + 18.4px); top: 366px; left: 874px;
-}
+  #fart{ width: calc(0.75rem + 18.4px); top: 366px; left: 874px;
+  }
 
-#fleche{ width: calc(0.65rem + 12px); top: 402px; left: 766px;
-}
+  #fleche{ width: calc(0.65rem + 12px); top: 402px; left: 766px;
+  }
 
-#fleche2{ width: calc(0.55rem + 14.8px); top: 384px; left: 244px;
-}
+  #fleche2{ width: calc(0.55rem + 14.8px); top: 384px; left: 244px;
+  }
 
-#fleche3{ width: calc(0.55rem + 15.6px); top: 164px; left: 676px;
-}
+  #fleche3{ width: calc(0.55rem + 15.6px); top: 164px; left: 676px;
+  }
 
-#fleche4{ width: calc(0.55rem + 15.6px); top: 638px; left: 392px;
-}
+  #fleche4{ width: calc(0.55rem + 15.6px); top: 638px; left: 392px;
+  }
 
-#fleche5{ width: calc(0.55rem + 15.6px); top: 574px; left: 1032px;
-}
+  #fleche5{ width: calc(0.55rem + 15.6px); top: 574px; left: 1032px;
+  }
 
-#fleche6{ width: calc(0.55rem + 15.6px); top: 770.8px; left: 210px;
-}
+  #fleche6{ width: calc(0.55rem + 15.6px); top: 770.8px; left: 210px;
+  }
 
-#fleche1_1{ width: calc(0.55rem + 15.6px); top: 494px; left: 468px;
-}
+  #fleche1_1{ width: calc(0.55rem + 15.6px); top: 494px; left: 468px;
+  }
 
-#fleche1_2{ width: calc(0.55rem + 18.8px); top: 536px; left: 210px;
-}
+  #fleche1_2{ width: calc(0.55rem + 18.8px); top: 536px; left: 210px;
+  }
 
-#fleche1_3{ width: calc(0.55rem + 15.6px); top: 798px; left: 320px;
-}
+  #fleche1_3{ width: calc(0.55rem + 15.6px); top: 798px; left: 320px;
+  }
 
-#fleche1_4{ width: calc(0.55rem + 18px); top: 646px; left: 800px;
-}
+  #fleche1_4{ width: calc(0.55rem + 18px); top: 646px; left: 800px;
+  }
 
-#fleche1_5{ width: calc(0.55rem + 17.6px); top: 193.2px; left: 972px;
-}
+  #fleche1_5{ width: calc(0.55rem + 17.6px); top: 193.2px; left: 972px;
+  }
 
-#fleche1_6{ width: calc(0.55rem + 15.6px); top: 339.6px; left: 571.6px;
-}
+  #fleche1_6{ width: calc(0.55rem + 15.6px); top: 339.6px; left: 571.6px;
+  }
 
-#fleche1_7{ width: calc(0.55rem + 15.6px); top: 924px; left: 220px;
-}
+  #fleche1_7{ width: calc(0.55rem + 15.6px); top: 924px; left: 220px;
+  }
 
-#fleche1_8{ width: calc(0.55rem + 15.6px); top: 881.6px; left: 533.2px; transform: rotate(-20deg);
-}
+  #fleche1_8{ width: calc(0.55rem + 15.6px); top: 881.6px; left: 533.2px; transform: rotate(-20deg);
+  }
 
-#fleursR{ width: calc(0.4rem + 12.4px); top: 574.8px; left: 679.2px;
-}
+  #fleursR{ width: calc(0.4rem + 12.4px); top: 574.8px; left: 679.2px;
+  }
 
-#grayC{ width: calc(0.5rem + 14.8px); top: 370px; left: 764px;
-}
+  #grayC{ width: calc(0.5rem + 14.8px); top: 370px; left: 764px;
+  }
 
-#iloveyou{ width: calc(0.4rem + 14px); top: 487.2px; left: 566px;
-}
+  #iloveyou{ width: calc(0.4rem + 14px); top: 487.2px; left: 566px;
+  }
 
-#kwe{ width: calc(0.65rem + 14.4px); top: 718px; left: 878.8px;
-}
+  #kwe{ width: calc(0.65rem + 14.4px); top: 718px; left: 878.8px;
+  }
 
-#lit{ width: calc(0.8rem + 15.2px); top: 618px; left: 973.2px;
-}
+  #lit{ width: calc(0.8rem + 15.2px); top: 618px; left: 973.2px;
+  }
 
-#livre{ width: calc(0.5rem + 14.4px); top: 732px; left: 572px;
-}
+  #livre{ width: calc(0.5rem + 14.4px); top: 732px; left: 572px;
+  }
 
-#maison{ width: calc(0.3rem + 16px); top: 354px; left: 940.8px;
-}
+  #maison{ width: calc(0.3rem + 16px); top: 354px; left: 940.8px;
+  }
 
-#plumes{ width: calc(0.1rem + 16px); top: 637.2px; left: 561.2px;
-}
+  #plumes{ width: calc(0.1rem + 16px); top: 637.2px; left: 561.2px;
+  }
 
-#poubelle{ width: calc(0.1rem + 10.4px); top: 432px; left: 310.4px;
-}
+  #poubelle{ width: calc(0.1rem + 10.4px); top: 432px; left: 310.4px;
+  }
 
-#scissors{ width: calc(0.4rem + 15.6px); top: 625.6px; left: 692px;
-}
+  #scissors{ width: calc(0.4rem + 15.6px); top: 625.6px; left: 692px;
+  }
 
-#seringue{ width: calc(0.05rem + 12px); top: 558.8px; left: 547.6px;
-}
+  #seringue{ width: calc(0.05rem + 12px); top: 558.8px; left: 547.6px;
+  }
 
-#serpent{ width: calc(0.05rem + 9.2px); top: 194.8px; left: 750px;
-}
+  #serpent{ width: calc(0.05rem + 9.2px); top: 194.8px; left: 750px;
+  }
 
-#botte{ width: calc(0.25rem + 18.8px); top: 57.6px; left: 530px;
-}
+  #botte{ width: calc(0.25rem + 18.8px); top: 57.6px; left: 530px;
+  }
 
-#jarana{ width: calc(0.25rem + 14px); top: 347.6px; left: 351.2px;
-}
+  #jarana{ width: calc(0.25rem + 14px); top: 347.6px; left: 351.2px;
+  }
 
-#oiseau{ width: calc(0.45rem + 16.4px); top: 421.2px; left: 934.8px;
-}
+  #oiseau{ width: calc(0.45rem + 16.4px); top: 421.2px; left: 934.8px;
+  }
 
-#sapin{ width: calc(0.45rem + 9.2px); top: 198px; left: 618.8px;
-}
+  #sapin{ width: calc(0.45rem + 9.2px); top: 198px; left: 618.8px;
+  }
 
-#rose{ width: calc(0.45rem + 16.4px); top: 435.6px; left: 1026.8px;
-}
+  #rose{ width: calc(0.45rem + 16.4px); top: 435.6px; left: 1026.8px;
+  }
 
-#legende{ position: absolute; width: calc(0.45rem + 168.4px); top: 690px; left: 1015px;
-}
+  #legende{ position: absolute; width: calc(0.45rem + 168.4px); top: 690px; left: 1015px;
+  }
 
-#moreInfo{ width: calc(0.45rem + 100.4px); top: 655px; left: 1075px;
-}
-
-/* Start button */
-.acceder{ 
-  background-image:url('./acceder.jpg'); 
-  background-size: cover;
-  width: 162px; 
-  height: 47px; 
-  position: absolute;
-  left: 35%;
-  top: 95%;
-  cursor: pointer;
-  
-}
+  #moreInfo{ width: calc(0.45rem + 100.4px); top: 655px; left: 1075px;
+  }
 
 }
 
@@ -206,336 +193,309 @@ body { min-width: 1200px; width: 1200px; background-color: white; margin: 0; hei
 /* Sizing for images for tablets and small laptops */
 @media screen and (min-width: 800px) {
 
-body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; height: auto;
-    }
+  body { min-width: 1200px; width: 150vw; background-color: white; margin: 0; height: auto;
+      }
 
-#carte{ min-width: 1200px; width: 150vw; height: auto;
-    }
+  #carte{ min-width: 1200px; width: 150vw; height: auto;
+      }
 
-.carteElements{ min-width: 1200px; width: 150vw; height: auto;
-}
+  .carteElements{ min-width: 1200px; width: 150vw; height: auto;
+  }
 
-#verreJus{ width: calc(0.35rem + 1.05vw); top: 30.25vw; left: 129.5vw;
-}
+  #verreJus{ width: calc(0.35rem + 1.05vw); top: 30.25vw; left: 129.5vw;
+  }
 
-#quatreDir{ width: calc(0.7rem + 0.9vw); top: 93.85vw; left: 109.85vw;
-}
+  #quatreDir{ width: calc(0.7rem + 0.9vw); top: 93.85vw; left: 109.85vw;
+  }
 
-#animal{ width: calc(1.15rem + 2.75vw); top: 80vw; left: 65.55vw;
-}
+  #animal{ width: calc(1.15rem + 2.75vw); top: 80vw; left: 65.55vw;
+  }
 
-#bouteille{ width: calc(0.45rem + 1.25vw); top: 94.5vw; left: 105.5vw;
-}
+  #bouteille{ width: calc(0.45rem + 1.25vw); top: 94.5vw; left: 105.5vw;
+  }
 
-#brush{ width: calc(0.40rem + 0.75vw); top: 38vw; left: 102.4vw;
-}
+  #brush{ width: calc(0.40rem + 0.75vw); top: 38vw; left: 102.4vw;
+  }
 
-#carotte{ width: calc(0.20rem + 1.1vw); top: 82.35vw; left: 71.6vw;
-}
+  #carotte{ width: calc(0.20rem + 1.1vw); top: 82.35vw; left: 71.6vw;
+  }
 
-#carreMulti{ width: calc(0.60rem + 1.55vw); top: 84.25vw; left: 68vw;
-}
+  #carreMulti{ width: calc(0.60rem + 1.55vw); top: 84.25vw; left: 68vw;
+  }
 
-#cartePost{ width: calc(0.55rem + 1.55vw); top: 60.75vw; left: 41.85vw;
-}
+  #cartePost{ width: calc(0.55rem + 1.55vw); top: 60.75vw; left: 41.85vw;
+  }
 
-#cercle4{ width: calc(0.7rem + 1vw); top: 83.10vw; left: 121.35vw;
-}
+  #cercle4{ width: calc(0.7rem + 1vw); top: 83.10vw; left: 121.35vw;
+  }
 
-#cercleTurq{ width: calc(0.45rem + 1.3vw); top: 79vw; left: 77vw;
-}
+  #cercleTurq{ width: calc(0.45rem + 1.3vw); top: 79vw; left: 77vw;
+  }
 
-#croixR{ width: calc(0.4rem + 1.1vw); top: 76.7vw; left: 67.5vw;
-}
+  #croixR{ width: calc(0.4rem + 1.1vw); top: 76.7vw; left: 67.5vw;
+  }
 
-#cv{ width: calc(0.5rem + 1.35vw); top: 76.4vw; left: 49.8vw;
-}
+  #cv{ width: calc(0.5rem + 1.35vw); top: 76.4vw; left: 49.8vw;
+  }
 
-#drapR{ width: calc(0.60rem + 1.9vw); top: 75.6vw; left: 70.65vw;
-}
+  #drapR{ width: calc(0.60rem + 1.9vw); top: 75.6vw; left: 70.65vw;
+  }
 
-#fart{ width: calc(0.75rem + 2.3vw); top: 45.75vw; left: 109.25vw;
-}
+  #fart{ width: calc(0.75rem + 2.3vw); top: 45.75vw; left: 109.25vw;
+  }
 
-#fleche{ width: calc(0.55rem + 1.85vw); top: 50.25vw; left: 95.75vw;
-}
+  #fleche{ width: calc(0.55rem + 1.85vw); top: 50.25vw; left: 95.75vw;
+  }
 
-#fleche2{ width: calc(0.55rem + 1.85vw); top: 48vw; left: 30.5vw;
-}
+  #fleche2{ width: calc(0.55rem + 1.85vw); top: 48vw; left: 30.5vw;
+  }
 
-#fleche3{ width: calc(0.55rem + 1.95vw); top: 20.5vw; left: 84.5vw;
-}
+  #fleche3{ width: calc(0.55rem + 1.95vw); top: 20.5vw; left: 84.5vw;
+  }
 
-#fleche4{ width: calc(0.55rem + 1.95vw); top: 79.75vw; left: 49vw;
-}
+  #fleche4{ width: calc(0.55rem + 1.95vw); top: 79.75vw; left: 49vw;
+  }
 
-#fleche5{ width: calc(0.55rem + 1.95vw); top: 71.75vw; left: 129vw;
-}
+  #fleche5{ width: calc(0.55rem + 1.95vw); top: 71.75vw; left: 129vw;
+  }
 
-#fleche6{ width: calc(0.55rem + 1.95vw); top: 96.35vw; left: 26.25vw;
-}
+  #fleche6{ width: calc(0.55rem + 1.95vw); top: 96.35vw; left: 26.25vw;
+  }
 
-#fleche1_1{ width: calc(0.55rem + 1.95vw); top: 61.75vw; left: 58.5vw;
-}
+  #fleche1_1{ width: calc(0.55rem + 1.95vw); top: 61.75vw; left: 58.5vw;
+  }
 
-#fleche1_2{ width: calc(0.55rem + 2.35vw); top: 67vw; left: 26.25vw;
-}
+  #fleche1_2{ width: calc(0.55rem + 2.35vw); top: 67vw; left: 26.25vw;
+  }
 
-#fleche1_3{ width: calc(0.55rem + 1.95vw); top: 99.75vw; left: 40vw;
-}
+  #fleche1_3{ width: calc(0.55rem + 1.95vw); top: 99.75vw; left: 40vw;
+  }
 
-#fleche1_4{ width: calc(0.55rem + 2.25vw); top: 80.75vw; left: 100vw;
-}
+  #fleche1_4{ width: calc(0.55rem + 2.25vw); top: 80.75vw; left: 100vw;
+  }
 
-#fleche1_5{ width: calc(0.55rem + 2.2vw); top: 24.15vw; left: 121.5vw;
-}
+  #fleche1_5{ width: calc(0.55rem + 2.2vw); top: 24.15vw; left: 121.5vw;
+  }
 
-#fleche1_6{ width: calc(0.55rem + 1.95vw); top: 42.45vw; left: 71.45vw;
-}
+  #fleche1_6{ width: calc(0.55rem + 1.95vw); top: 42.45vw; left: 71.45vw;
+  }
 
-#fleche1_7{ width: calc(0.55rem + 1.95vw); top: 115.5vw; left: 27.5vw;
-}
+  #fleche1_7{ width: calc(0.55rem + 1.95vw); top: 115.5vw; left: 27.5vw;
+  }
 
-#fleche1_8{ width: calc(0.55rem + 1.95vw); top: 110.2vw; left: 66.65vw; transform: rotate(-20deg);
-}
+  #fleche1_8{ width: calc(0.55rem + 1.95vw); top: 110.2vw; left: 66.65vw; transform: rotate(-20deg);
+  }
 
-#fleursR{ width: calc(0.4rem + 1.55vw); top: 71.85vw; left: 84.9vw;
-}
+  #fleursR{ width: calc(0.4rem + 1.55vw); top: 71.85vw; left: 84.9vw;
+  }
 
-#grayC{ width: calc(0.5rem + 1.85vw); top: 46.25vw; left: 95.5vw;
-}
+  #grayC{ width: calc(0.5rem + 1.85vw); top: 46.25vw; left: 95.5vw;
+  }
 
-#iloveyou{ width: calc(0.4rem + 1.75vw); top: 60.9vw; left: 70.75vw;
-}
+  #iloveyou{ width: calc(0.4rem + 1.75vw); top: 60.9vw; left: 70.75vw;
+  }
 
-#kwe{ width: calc(0.65rem + 1.8vw); top: 89.75vw; left: 109.85vw;
-}
+  #kwe{ width: calc(0.65rem + 1.8vw); top: 89.75vw; left: 109.85vw;
+  }
 
-#lit{ width: calc(0.8rem + 1.9vw); top: 77.25vw; left: 121.65vw;
-}
+  #lit{ width: calc(0.8rem + 1.9vw); top: 77.25vw; left: 121.65vw;
+  }
 
-#livre{ width: calc(0.5rem + 1.8vw); top: 91.5vw; left: 71.5vw;
-}
+  #livre{ width: calc(0.5rem + 1.8vw); top: 91.5vw; left: 71.5vw;
+  }
 
-#maison{ width: calc(0.3rem + 2vw); top: 44.25vw; left: 117.6vw;
-}
+  #maison{ width: calc(0.3rem + 2vw); top: 44.25vw; left: 117.6vw;
+  }
 
-#plumes{ width: calc(0.1rem + 2vw); top: 79.65vw; left: 70.15vw;
-}
+  #plumes{ width: calc(0.1rem + 2vw); top: 79.65vw; left: 70.15vw;
+  }
 
-#poubelle{ width: calc(0.1rem + 1.3vw); top: 54vw; left: 38.8vw;
-}
+  #poubelle{ width: calc(0.1rem + 1.3vw); top: 54vw; left: 38.8vw;
+  }
 
-#scissors{ width: calc(0.4rem + 1.95vw); top: 78.2vw; left: 86.5vw;
-}
+  #scissors{ width: calc(0.4rem + 1.95vw); top: 78.2vw; left: 86.5vw;
+  }
 
-#seringue{ width: calc(0.05rem + 1.5vw); top: 69.85vw; left: 68.45vw;
-}
+  #seringue{ width: calc(0.05rem + 1.5vw); top: 69.85vw; left: 68.45vw;
+  }
 
-#serpent{ width: calc(0.05rem + 1.15vw); top: 24.35vw; left: 93.75vw;
-}
+  #serpent{ width: calc(0.05rem + 1.15vw); top: 24.35vw; left: 93.75vw;
+  }
 
-#botte{ width: calc(0.25rem + 2.35vw); top: 7.2vw; left: 66.25vw;
-}
+  #botte{ width: calc(0.25rem + 2.35vw); top: 7.2vw; left: 66.25vw;
+  }
 
-#jarana{ width: calc(0.25rem + 1.75vw); top: 43.45vw; left: 43.9vw;
-}
+  #jarana{ width: calc(0.25rem + 1.75vw); top: 43.45vw; left: 43.9vw;
+  }
 
-#oiseau{ width: calc(0.45rem + 2.05vw); top: 52.65vw; left: 116.85vw;
-}
+  #oiseau{ width: calc(0.45rem + 2.05vw); top: 52.65vw; left: 116.85vw;
+  }
 
-#sapin{ width: calc(0.45rem + 1.15vw); top: 24.75vw; left: 77.35vw;
-}
+  #sapin{ width: calc(0.45rem + 1.15vw); top: 24.75vw; left: 77.35vw;
+  }
 
-#rose{ width: calc(0.45rem + 2.05vw); top: 54.45vw; left: 128.35vw;
-}
+  #rose{ width: calc(0.45rem + 2.05vw); top: 54.45vw; left: 128.35vw;
+  }
 
-#legende{ position: absolute; width: calc(0.45rem + 22vw); top: 1070px; left: 1570px;
-}
+  #legende{ position: absolute; width: calc(0.45rem + 22vw); top: 1070px; left: 1570px;
+  }
 
-#moreInfo{ width: calc(0.45rem + 100px); height: calc(0.45rem + 25px); top: 1030px; left: 1750px;
-}
-
-/* Start button */
-.acceder{ 
-  background-image:url('./acceder.jpg'); 
-  background-size: cover;
-  width: 121.5px; 
-  height: 35.25px; 
-  position: absolute;
-  left: 40%;
-  cursor: pointer;
-  
-}
-
+  #moreInfo{ width: calc(0.45rem + 100px); height: calc(0.45rem + 25px); top: 1030px; left: 1750px;
+  }
 }
 
 /* Sizing for larger screens */
 @media screen and (min-width: 1266px) {
 
-body { width: 150vw; background-color: white; margin: 0; height: auto;
+  body { width: 150vw; background-color: white; margin: 0; height: auto;
+      }
+
+  .carteElements{ width: 150vw; height: auto; max-width: 1900px;
     }
 
-.carteElements{ width: 150vw; height: auto; max-width: 1900px;
+  #carte{ width: 150vw; height: auto; max-width: 1900px;
   }
 
-#carte{ width: 150vw; height: auto; max-width: 1900px;
-}
+  #verreJus{ width: calc(0.35rem + 13.3px); top: 384px; left: 1640.33px;
+  }
 
-#verreJus{ width: calc(0.35rem + 13.3px); top: 384px; left: 1640.33px;
-}
+  #quatreDir{ width: calc(0.7rem + 11.4px); top: 1188.767px; left: 1391.43px;
+  }
 
-#quatreDir{ width: calc(0.7rem + 11.4px); top: 1188.767px; left: 1391.43px;
-}
+  #animal{ width: calc(1.15rem + 34.833px); top: 1013.33px; left: 830.3px;
+  }
 
-#animal{ width: calc(1.15rem + 34.833px); top: 1013.33px; left: 830.3px;
-}
+  #bouteille{ width: calc(0.45rem + 15.83px); top: 1197px; left: 1336.33px;
+  }
 
-#bouteille{ width: calc(0.45rem + 15.83px); top: 1197px; left: 1336.33px;
-}
+  #brush{ width: calc(0.40rem + 9.5px); top: 481.33px; left: 1297.066px;
+  }
 
-#brush{ width: calc(0.40rem + 9.5px); top: 481.33px; left: 1297.066px;
-}
+  #carotte{ width: calc(0.20rem + 13.93px); top: 1043.1px; left: 906.93px;
+  }
 
-#carotte{ width: calc(0.20rem + 13.93px); top: 1043.1px; left: 906.93px;
-}
+  #carreMulti{ width: calc(0.60rem + 19.63px); top: 1067.167px; left: 861.33px;
+  }
 
-#carreMulti{ width: calc(0.60rem + 19.63px); top: 1067.167px; left: 861.33px;
-}
+  #cartePost{ width: calc(0.55rem + 19.63px); top: 769.5px; left: 530.1px;
+  }
 
-#cartePost{ width: calc(0.55rem + 19.63px); top: 769.5px; left: 530.1px;
-}
+  #cercle4{ width: calc(0.7rem + 12.67px); top: 1052.6px; left: 1537.1px;
+  }
 
-#cercle4{ width: calc(0.7rem + 12.67px); top: 1052.6px; left: 1537.1px;
-}
+  #cercleTurq{ width: calc(0.45rem + 16.467px); top: 1000.667px; left: 975.33px;
+  }
 
-#cercleTurq{ width: calc(0.45rem + 16.467px); top: 1000.667px; left: 975.33px;
-}
+  #croixR{ width: calc(0.4rem + 13.93px); top: 971.53px; left: 855px;
+  }
 
-#croixR{ width: calc(0.4rem + 13.93px); top: 971.53px; left: 855px;
-}
+  #cv{ width: calc(0.5rem + 17.1px); top: 967.73px; left: 630.8px;
+  }
 
-#cv{ width: calc(0.5rem + 17.1px); top: 967.73px; left: 630.8px;
-}
+  #drapR{ width: calc(0.60rem + 24.0667px); top: 957.6px; left: 894.9px;
+  }
 
-#drapR{ width: calc(0.60rem + 24.0667px); top: 957.6px; left: 894.9px;
-}
+  #fart{ width: calc(0.75rem + 29.13px); top: 579.5px; left: 1383.83px;
+  }
 
-#fart{ width: calc(0.75rem + 29.13px); top: 579.5px; left: 1383.83px;
-}
+  #fleche{ width: calc(0.55rem + 23.43px); top: 636.5px; left: 1212.83px;
+  }
 
-#fleche{ width: calc(0.55rem + 23.43px); top: 636.5px; left: 1212.83px;
-}
+  #fleche2{ width: calc(0.55rem + 23.43px); top: 608px; left: 386.33px;
+  }
 
-#fleche2{ width: calc(0.55rem + 23.43px); top: 608px; left: 386.33px;
-}
+  #fleche3{ width: calc(0.55rem + 24.7px); top: 259.66px; left: 1070.33px;
+  }
 
-#fleche3{ width: calc(0.55rem + 24.7px); top: 259.66px; left: 1070.33px;
-}
+  #fleche4{ width: calc(0.55rem + 24.7px); top: 1010.167px; left: 620.67px;
+  }
 
-#fleche4{ width: calc(0.55rem + 24.7px); top: 1010.167px; left: 620.67px;
-}
+  #fleche5{ width: calc(0.55rem + 24.7px); top: 908.83px; left: 1634px;
+  }
 
-#fleche5{ width: calc(0.55rem + 24.7px); top: 908.83px; left: 1634px;
-}
+  #fleche6{ width: calc(0.55rem + 24.7px); top: 1220.43px; left: 332.5px;
+  }
 
-#fleche6{ width: calc(0.55rem + 24.7px); top: 1220.43px; left: 332.5px;
-}
+  #fleche1_1{ width: calc(0.55rem + 24.7px); top: 782.167px; left: 741px;
+  }
 
-#fleche1_1{ width: calc(0.55rem + 24.7px); top: 782.167px; left: 741px;
-}
+  #fleche1_2{ width: calc(0.55rem + 29.767px); top: 848.667px; left: 332.5px;
+  }
 
-#fleche1_2{ width: calc(0.55rem + 29.767px); top: 848.667px; left: 332.5px;
-}
+  #fleche1_3{ width: calc(0.55rem + 24.7px); top: 1263.5px; left: 506.667px;
+  }
 
-#fleche1_3{ width: calc(0.55rem + 24.7px); top: 1263.5px; left: 506.667px;
-}
+  #fleche1_4{ width: calc(0.55rem + 28.5px); top: 1022.83px; left: 1266.667px;
+  }
 
-#fleche1_4{ width: calc(0.55rem + 28.5px); top: 1022.83px; left: 1266.667px;
-}
+  #fleche1_5{ width: calc(0.55rem + 27.867px); top: 305.9px; left: 1539px;
+  }
 
-#fleche1_5{ width: calc(0.55rem + 27.867px); top: 305.9px; left: 1539px;
-}
+  #fleche1_6{ width: calc(0.55rem + 24.7px); top: 537.7px; left: 905.03px;
+  }
 
-#fleche1_6{ width: calc(0.55rem + 24.7px); top: 537.7px; left: 905.03px;
-}
+  #fleche1_7{ width: calc(0.55rem + 24.7px); top: 1463px; left: 348.33px;
+  }
 
-#fleche1_7{ width: calc(0.55rem + 24.7px); top: 1463px; left: 348.33px;
-}
+  #fleche1_8{ width: calc(0.55rem + 24.7px); top: 1395.867px; left: 844.23px; transform: rotate(-20deg);
+  }
 
-#fleche1_8{ width: calc(0.55rem + 24.7px); top: 1395.867px; left: 844.23px; transform: rotate(-20deg);
-}
+  #fleursR{ width: calc(0.4rem + 19.63px); top: 910.1px; left: 1075.4px;
+  }
 
-#fleursR{ width: calc(0.4rem + 19.63px); top: 910.1px; left: 1075.4px;
-}
+  #grayC{ width: calc(0.5rem + 23.43px); top: 585.83px; left: 1209.667px;
+  }
 
-#grayC{ width: calc(0.5rem + 23.43px); top: 585.83px; left: 1209.667px;
-}
+  #iloveyou{ width: calc(0.4rem + 22.167px); top: 771.4px; left: 896.167px;
+  }
 
-#iloveyou{ width: calc(0.4rem + 22.167px); top: 771.4px; left: 896.167px;
-}
+  #kwe{ width: calc(0.65rem + 22.8px); top: 1136.83px; left: 1391.43px;
+  }
 
-#kwe{ width: calc(0.65rem + 22.8px); top: 1136.83px; left: 1391.43px;
-}
+  #lit{ width: calc(0.8rem + 24.067px); top: 978.5px; left: 1540.9px;
+  }
 
-#lit{ width: calc(0.8rem + 24.067px); top: 978.5px; left: 1540.9px;
-}
+  #livre{ width: calc(0.5rem + 22.8px); top: 1159px; left: 905.667px;
+  }
 
-#livre{ width: calc(0.5rem + 22.8px); top: 1159px; left: 905.667px;
-}
+  #maison{ width: calc(0.3rem + 25.33px); top: 560.5px; left: 1489.6px;
+  }
 
-#maison{ width: calc(0.3rem + 25.33px); top: 560.5px; left: 1489.6px;
-}
+  #plumes{ width: calc(0.1rem + 25.33px); top: 1008.9px; left: 888.567px;
+  }
 
-#plumes{ width: calc(0.1rem + 25.33px); top: 1008.9px; left: 888.567px;
-}
+  #poubelle{ width: calc(0.1rem + 16.467px); top: 684px; left: 491.467px;
+  }
 
-#poubelle{ width: calc(0.1rem + 16.467px); top: 684px; left: 491.467px;
-}
+  #scissors{ width: calc(0.4rem + 24.7px); top: 990.53px; left: 1095.667px;
+  }
 
-#scissors{ width: calc(0.4rem + 24.7px); top: 990.53px; left: 1095.667px;
-}
+  #seringue{ width: calc(0.05rem + 19px); top: 884.767px; left: 867.03px;
+  }
 
-#seringue{ width: calc(0.05rem + 19px); top: 884.767px; left: 867.03px;
-}
+  #serpent{ width: calc(0.05rem + 14.567px); top: 308.43px; left: 1187.5px;
+  }
 
-#serpent{ width: calc(0.05rem + 14.567px); top: 308.43px; left: 1187.5px;
-}
+  #botte{ width: calc(0.25rem + 29.767px); top: 91.2px; left: 839.167px;
+  }
 
-#botte{ width: calc(0.25rem + 29.767px); top: 91.2px; left: 839.167px;
-}
+  #jarana{ width: calc(0.25rem + 22.167px); top: 550.367px; left: 556.067px;
+  }
 
-#jarana{ width: calc(0.25rem + 22.167px); top: 550.367px; left: 556.067px;
-}
+  #oiseau{ width: calc(0.45rem + 25.967px); top: 666.9px; left: 1480.1px;
+  }
 
-#oiseau{ width: calc(0.45rem + 25.967px); top: 666.9px; left: 1480.1px;
-}
+  #sapin{ width: calc(0.45rem + 14.567px); top: 313.5px; left: 979.767px;
+  }
 
-#sapin{ width: calc(0.45rem + 14.567px); top: 313.5px; left: 979.767px;
-}
+  #rose{ width: calc(0.45rem + 25.967px); top: 689.7px; left: 1625.767px;
+  }
 
-#rose{ width: calc(0.45rem + 25.967px); top: 689.7px; left: 1625.767px;
-}
+  #legende{ position: absolute; width: calc(0.45rem + 275px); top: 1090px; left: 1600px;
+  }
 
-#legende{ position: absolute; width: calc(0.45rem + 275px); top: 1090px; left: 1600px;
-}
-
-#moreInfo{ top: 1050px; left: 1750px; width: calc(0.45rem + 115px); height: calc(0.45rem + 30px); 
-}
-
-/* Start button */
-.acceder{ 
-  background-image:url('./acceder.jpg'); 
-  background-size: cover;
-  width: 243px; 
-  height: 70.5px; 
-  position: absolute;
-  left: 45%;
-  cursor: pointer;
-  
-}
-
-
+  #moreInfo{ top: 1050px; left: 1750px; width: calc(0.45rem + 115px); height: calc(0.45rem + 30px); 
+  }
 }
 
 .modalIntro { display: block; /* Shown when the page is loaded */ position: fixed; /* Stay in place */ z-index: 2; /* Sit on top */ padding-top: 100px;
@@ -549,23 +509,6 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
   /* Enable scroll if needed */ background-color: rgb(0,0,0); /* Fallback color */ background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
- /* Container holding anything that goes on or below the modal */
- .modalContainer {
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-
-/* block to put things on or below modal */
-.modalZ-block {
-  position: absolute;
-  z-index: 3;
-  bottom: 3%;
-  background-color: black;
-  color: white;
-  text-align: center;
-} 
-
 /* Modal Content (image) */
 .modal-content, .modal-content2 { margin: auto; display: block; width: 80%; max-width: 700px;
 }
@@ -575,7 +518,7 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
 }
 
 /* Add Animation */
-.modal-content, .alternative, .alternative2 { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;
+.modal-content, .alternative, .alternative2, .Containers { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom { from {-webkit-transform:scale(0)} to {-webkit-transform:scale(1)}
@@ -638,6 +581,20 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
   transform: translate(-50%, -50%);
 }
 
+/* Start button */
+.acceder{
+  position: absolute;
+  margin: auto; 
+  background-image:url('./acceder.jpg'); 
+  background-size: cover;
+  width: 162px; 
+  height: 47px;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  cursor: pointer;
+}
+
 * {box-sizing:border-box}
 
 /* Make the carousel fleurs_d'espoir images invisible by default */
@@ -692,15 +649,3 @@ body { width: 150vw; background-color: white; margin: 0; height: auto;
   from {opacity: .5}
   to {opacity: 2}
 }
-
-/* top: 1250px; left: 800px; position: relative; */
-
-/* ------ */
-
-/* #titre{
-  display: inline-block;
-  position: absolute;
-  color: black;
-  font-size: 8rem;
-  z-index: 2;
-} */
