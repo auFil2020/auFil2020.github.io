@@ -518,7 +518,7 @@ img.icon:focus {
 }
 
 /* Add Animation */
-.modal-content, .alternative, .alternative2, .Containers { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;
+.modal-content, .alternative, .alternative2, .image2 { -webkit-animation-name: zoom; -webkit-animation-duration: 0.6s; animation-name: zoom; animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom { from {-webkit-transform:scale(0)} to {-webkit-transform:scale(1)}
@@ -575,8 +575,8 @@ img.icon:focus {
 }
 .image2 {
   position: absolute;
-  margin: auto; display: block; width: 80%; max-width: 700px;
-  top: 62%;
+  margin: auto; display: block; width: 70%; max-width: 600px;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -628,7 +628,7 @@ img.icon:focus {
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover {
-  background-color: rgba(224, 221, 7, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 
