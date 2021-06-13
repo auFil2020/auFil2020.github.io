@@ -13,7 +13,7 @@ body {
 #verreJus, #quatreDir, #animal, #bouteille, #brush, #carotte, #carreMulti, #cartePost, #cercle4, #cercleTurq, #croixR,
 #cv, #drapR, #fart, #fleche, #fleche2, #fleche3, #fleche4, #fleche5, #fleche6, #fleche1_1, #fleche1_2, #fleche1_3, #fleche1_4, #fleche1_5,
 #fleche1_6, #fleche1_7, #fleche1_8, #fleursR, #grayC, #iloveyou, #kwe, #lit, #livre, #maison, #plumes, #poubelle, #scissors, #seringue,
-#serpent, #botte, #jarana, #oiseau, #sapin, #rose, #moreInfo{
+#serpent, #botte, #jarana, #oiseau, #sapin, #rose, #moreInfo, #legende{
   display: inline-block; position: absolute; z-index: 1; cursor: pointer; overflow: visible;
 }
 
@@ -175,10 +175,10 @@ img.icon:focus {
   #rose{ width: calc(0.45rem + 16.4px); top: 435.6px; left: 1026.8px;
   }
 
-  #legende{ position: absolute; width: calc(0.45rem + 168.4px); top: 690px; left: 1015px;
+  #legende{ width: calc(0.8rem + 35.5vw); top: 690px; left: 1000.2px;
   }
 
-  #moreInfo{ width: calc(0.45rem + 100.4px); top: 655px; left: 1075px;
+  #moreInfo{ width: calc(0.8rem + 100.4px); top: 655px; left: 1075px;
   }
 
 }
@@ -337,10 +337,10 @@ img.icon:focus {
   #rose{ width: calc(0.45rem + 2.05vw); top: 54.45vw; left: 128.35vw;
   }
 
-  #legende{ position: absolute; width: calc(0.45rem + 22vw); top: 1070px; left: 1570px;
+  #legende{width: calc(0.8rem + 22.5vw); top: 85.25vw; left: 125.65vw;
   }
 
-  #moreInfo{ width: calc(0.45rem + 100px); height: calc(0.45rem + 25px); top: 1030px; left: 1750px;
+  #moreInfo{ width: calc(0.8rem + 10vw); height: calc(0.45rem + 25px); top: 80.25vw; left: 135.65vw;
   }
 }
 
@@ -491,10 +491,10 @@ img.icon:focus {
   #rose{ width: calc(0.45rem + 25.967px); top: 689.7px; left: 1625.767px;
   }
 
-  #legende{ position: absolute; width: calc(0.45rem + 275px); top: 1090px; left: 1600px;
+  #legende{width: calc(0.8rem + 294px); top: 1075.5px; left: 1580.9px;
   }
 
-  #moreInfo{ top: 1050px; left: 1750px; width: calc(0.45rem + 115px); height: calc(0.45rem + 30px); 
+  #moreInfo{ width: calc(0.8rem + 100px); top: 1020.5px; left: 1750.9px;
   }
 }
 
